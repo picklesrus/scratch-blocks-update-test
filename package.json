@@ -1,0 +1,43 @@
+{
+  "name": "scratch-blocks-update-test",
+  "version": "0.0.1",
+  "description": "A test blockly environment",
+  "scripts": {
+    "audit": "npm audit fix",
+    "update": "npm update",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/picklesrus/scratch-blocks-update-test.git"
+  },
+  "directories": {
+    "dist": "dist",
+    "src": "src"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=8.17.0"
+  },
+  "browserslist": [
+    "defaults",
+    "IE 11",
+    "IE_Mob 11"
+  ],
+  "dependencies": {
+    "@blockly/continuous-toolbox": "^1.0.4",
+    "blockly": ">=5.20210325.0",
+    "@blockly/dev-tools": "latest"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
