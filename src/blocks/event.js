@@ -34,8 +34,8 @@ Blockly.Blocks['event_whentouchingobject'] = {
           "name": "TOUCHINGOBJECTMENU"
         }
       ],
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_hat"]
+      "style": "event",
+      "extensions": ["shape_hat"]
     });
   }
 };
@@ -58,7 +58,7 @@ Blockly.Blocks['event_touchingobjectmenu'] = {
           ]
         }
       ],
-      "extensions": ["colours_event", "output_string"]
+      "extensions": ["output_string"]
     });
   }
 };
@@ -75,14 +75,14 @@ Blockly.Blocks['event_whenflagclicked'] = {
       "args0": [
         {
           "type": "field_image",
-          "src": Blockly.mainWorkspace.options.pathToMedia + "green-flag.svg",
+          "src": "https://scratch.mit.edu/static/blocks-media/green-flag.svg",
           "width": 24,
           "height": 24,
           "alt": "flag"
         }
       ],
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_hat"]
+      "style": "event",
+      "extensions": ["shape_hat"]
     });
   }
 };
@@ -95,8 +95,8 @@ Blockly.Blocks['event_whenthisspriteclicked'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.EVENT_WHENTHISSPRITECLICKED,
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_hat"]
+      "style": "event",
+      "extensions": ["shape_hat"]
     });
   }
 
@@ -110,8 +110,8 @@ Blockly.Blocks['event_whenstageclicked'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.EVENT_WHENSTAGECLICKED,
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_hat"]
+      "style": "event",
+      "extensions": ["shape_hat"]
     });
   }
 };
@@ -128,13 +128,12 @@ Blockly.Blocks['event_whenbroadcastreceived'] = {
       "args0": [
         {
           "type": "field_variable",
-          "name": "BROADCAST_OPTION",
-          "variableTypes": [Blockly.BROADCAST_MESSAGE_VARIABLE_TYPE],
+          "name": "BROADCAST_OPTION", // TODO: add types
           "variable": Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME
         }
       ],
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_hat"]
+      "style": "event",
+      "extensions": ["shape_hat"]
     });
   }
 };
@@ -156,8 +155,8 @@ Blockly.Blocks['event_whenbackdropswitchesto'] = {
           ]
         }
       ],
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_hat"]
+      "style": "event",
+      "extensions": ["shape_hat"]
     });
   }
 };
@@ -184,8 +183,8 @@ Blockly.Blocks['event_whengreaterthan'] = {
           "name": "VALUE"
         }
       ],
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_hat"]
+      "style": "event",
+      "extensions": ["shape_hat"]
     });
   }
 };
@@ -202,13 +201,11 @@ Blockly.Blocks['event_broadcast_menu'] = {
         {
           "type": "field_variable",
           "name": "BROADCAST_OPTION",
-          "variableTypes":[Blockly.BROADCAST_MESSAGE_VARIABLE_TYPE],
+          // TODO: add back types
           "variable": Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME
         }
       ],
-      "colour": Blockly.Colours.event.secondary,
-      "colourSecondary": Blockly.Colours.event.secondary,
-      "colourTertiary": Blockly.Colours.event.tertiary,
+      "style": "event",
       "extensions": ["output_string"]
     });
   }
@@ -229,8 +226,8 @@ Blockly.Blocks['event_broadcast'] = {
           "name": "BROADCAST_INPUT"
         }
       ],
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_statement"]
+      "style": "event",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -249,8 +246,8 @@ Blockly.Blocks['event_broadcastandwait'] = {
           "name":"BROADCAST_INPUT"
         }
       ],
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_statement"]
+      "style": "event",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -314,8 +311,8 @@ Blockly.Blocks['event_whenkeypressed'] = {
           ]
         }
       ],
-      "category": Blockly.Categories.event,
-      "extensions": ["colours_event", "shape_hat"]
+      "style": "event",
+      "extensions": ["shape_hat"]
     });
   }
 };

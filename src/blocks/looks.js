@@ -39,8 +39,8 @@ Blockly.Blocks['looks_sayforsecs'] = {
           "name": "SECS"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -59,8 +59,8 @@ Blockly.Blocks['looks_say'] = {
           "name": "MESSAGE"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -83,8 +83,8 @@ Blockly.Blocks['looks_thinkforsecs'] = {
           "name": "SECS"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -103,8 +103,8 @@ Blockly.Blocks['looks_think'] = {
           "name": "MESSAGE"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -117,8 +117,8 @@ Blockly.Blocks['looks_show'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.LOOKS_SHOW,
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -131,8 +131,8 @@ Blockly.Blocks['looks_hide'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.LOOKS_HIDE,
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -147,8 +147,8 @@ Blockly.Blocks['looks_hideallsprites'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.LOOKS_HIDEALLSPRITES,
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -180,8 +180,8 @@ Blockly.Blocks['looks_changeeffectby'] = {
           "name": "CHANGE"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -213,8 +213,8 @@ Blockly.Blocks['looks_seteffectto'] = {
           "name": "VALUE"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -227,8 +227,8 @@ Blockly.Blocks['looks_cleargraphiceffects'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.LOOKS_CLEARGRAPHICEFFECTS,
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -247,8 +247,8 @@ Blockly.Blocks['looks_changesizeby'] = {
           "name": "CHANGE"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -267,8 +267,8 @@ Blockly.Blocks['looks_setsizeto'] = {
           "name": "SIZE"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -281,9 +281,9 @@ Blockly.Blocks['looks_size'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.LOOKS_SIZE,
-      "category": Blockly.Categories.looks,
+      "style": "looks",
       "checkboxInFlyout": true,
-      "extensions": ["colours_looks", "output_number"]
+      "extensions": ["output_number"]
     });
   }
 };
@@ -311,8 +311,8 @@ Blockly.Blocks['looks_changestretchby'] = {
           "name": "CHANGE"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -333,8 +333,8 @@ Blockly.Blocks['looks_setstretchto'] = {
           "name": "STRETCH"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -357,9 +357,7 @@ Blockly.Blocks['looks_costume'] = {
           ]
         }
       ],
-      "colour": Blockly.Colours.looks.secondary,
-      "colourSecondary": Blockly.Colours.looks.secondary,
-      "colourTertiary": Blockly.Colours.looks.tertiary,
+      "style": "looks",
       "extensions": ["output_string"]
     });
   }
@@ -379,8 +377,8 @@ Blockly.Blocks['looks_switchcostumeto'] = {
           "name": "COSTUME"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -393,8 +391,8 @@ Blockly.Blocks['looks_nextcostume'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.LOOKS_NEXTCOSTUME,
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -413,8 +411,8 @@ Blockly.Blocks['looks_switchbackdropto'] = {
           "name": "BACKDROP"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -437,9 +435,7 @@ Blockly.Blocks['looks_backdrops'] = {
           ]
         }
       ],
-      "colour": Blockly.Colours.looks.secondary,
-      "colourSecondary": Blockly.Colours.looks.secondary,
-      "colourTertiary": Blockly.Colours.looks.tertiary,
+      "style": "looks",
       "extensions": ["output_string"]
     });
   }
@@ -463,8 +459,8 @@ Blockly.Blocks['looks_gotofrontback'] = {
           ]
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -491,8 +487,8 @@ Blockly.Blocks['looks_goforwardbackwardlayers'] = {
           "name": "NUM"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -515,9 +511,9 @@ Blockly.Blocks['looks_backdropnumbername'] = {
           ]
         }
       ],
-      "category": Blockly.Categories.looks,
+      "style": "looks",
       "checkboxInFlyout": true,
-      "extensions": ["colours_looks", "output_number"]
+      "extensions": ["output_number"]
     });
   }
 };
@@ -540,9 +536,9 @@ Blockly.Blocks['looks_costumenumbername'] = {
           ]
         }
       ],
-      "category": Blockly.Categories.looks,
+      "style": "looks",
       "checkboxInFlyout": true,
-      "extensions": ["colours_looks", "output_number"]
+      "extensions": ["output_number"]
     });
   }
 };
@@ -561,8 +557,8 @@ Blockly.Blocks['looks_switchbackdroptoandwait'] = {
           "name": "BACKDROP"
         }
       ],
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
@@ -575,8 +571,8 @@ Blockly.Blocks['looks_nextbackdrop'] = {
   init: function() {
     this.jsonInit({
       "message0": Blockly.Msg.LOOKS_NEXTBACKDROP_BLOCK,
-      "category": Blockly.Categories.looks,
-      "extensions": ["colours_looks", "shape_statement"]
+      "style": "looks",
+      "extensions": ["shape_statement"]
     });
   }
 };
