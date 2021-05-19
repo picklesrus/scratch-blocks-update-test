@@ -74,7 +74,15 @@ export default Blockly.Theme.defineTheme('highContrastTheme', {
             'colour': 'myColor'
         },
     },
-    'componentStyles': {},
+    'componentStyles': {
+        'workspaceBackgroundColour': '#F9F9F9',
+        'toolboxBackgroundColour': '#FFFFFF',
+        'toolboxForegroundColour': '#575E75',
+        'flyoutBackgroundColour': '#F9F9F9',
+        'flyoutForegroundColour': '#575E75',
+        'insertionMarkerColour': '#000000',
+        'insertionMarkerOpacity': '.2',
+    },
     'fontStyle': {},
     'startHats': null,
 });
