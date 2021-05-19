@@ -31,7 +31,6 @@ import {ContinuousToolbox, ContinuousFlyout, ContinuousMetrics} from '@blockly/c
 
 
 import defaultScratchTheme from './themes/DefaultScratch_theme.js';
-import highContrastTheme from './themes/highContrast_theme.js';
 import wackadoodleTheme from './themes/wackadoodle_theme.js';
 import highContrastTheme from './themes/highContrast_theme.js';
 
