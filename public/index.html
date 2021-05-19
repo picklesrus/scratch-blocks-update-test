@@ -14,12 +14,27 @@
      #root {
          height: 100%;
      }
+     .blocklyFlyout{
+         border-right: 1px solid hsla(0, 0%, 0%, 0.15);
+         border-top: 1px solid hsla(0, 0%, 0%, 0.15);
+     }
+     .blocklyToolboxDiv {
+         border-right: 1px solid hsla(0, 0%, 0%, 0.15);
+         border-bottom: 1px solid hsla(0, 0%, 0%, 0.15);
+     }
  </style>
   <script type="module" type='text/javascript' src='./index.js'></script>
 
 </head>
 
 <body>
+    <div>
+    <div class="themeButtons">
+      <button id="wackadoodleTheme">Wackadoodle</button>
+      <button id="defaultTheme">default</button>
+      <button id="highContrastTheme" >high contrast</button>
+    </div>
+  </div>
   <div id="root"></div>
 </body>
 

@@ -33,6 +33,7 @@ import {ContinuousToolbox, ContinuousFlyout, ContinuousMetrics} from '@blockly/c
 
 import defaultScratchTheme from './themes/DefaultScratch_theme.js';
 import wackadoodleTheme from './themes/wackadoodle_theme.js';
+import highContrastTheme from './themes/highContrast_theme.js';
 
 import toolboxXmlObject from './toolbox.js';
 const toolboxXml = toolboxXmlObject.toolbox;
@@ -44,7 +45,18 @@ const toolboxXml = toolboxXmlObject.toolbox;
  * @return {!Blockly.WorkspaceSvg} The created workspace.
  */
 
+let workspace = null;
 document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("wackadoodleTheme").addEventListener("click", function() {
+        workspace.setTheme(wackadoodleTheme);
+    });
+    document.getElementById("defaultTheme").addEventListener("click", function() {
+        workspace.setTheme(defaultScratchTheme);
+    });
+    document.getElementById("highContrastTheme").addEventListener("click", function() {
+        workspace.setTheme(highContrastTheme);
+    });
+
   const defaultOptions = {
     move: {
       scrollbars: true,
@@ -72,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
     media: 'https://unpkg.com/scratch-blocks@0.1.0-prerelease.1578322100/media/'
   };
   // Create workspace and import the XML
-  const workspace = Blockly.inject('root',
+  workspace = Blockly.inject('root',
       defaultOptions);
   //createPlayground(document.getElementById('root'), createWorkspace,  defaultOptions);
 });
