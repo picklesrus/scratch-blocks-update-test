@@ -33,6 +33,7 @@ import {ContinuousToolbox, ContinuousFlyout, ContinuousMetrics} from '@blockly/c
 import defaultScratchTheme from './themes/DefaultScratch_theme.js';
 import wackadoodleTheme from './themes/wackadoodle_theme.js';
 import highContrastTheme from './themes/highContrast_theme.js';
+import darkTheme from './themes/dark_theme.js';
 
 import toolboxXmlObject from './toolbox.js';
 const toolboxXml = toolboxXmlObject.toolbox;
@@ -54,6 +55,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     document.getElementById("highContrastTheme").addEventListener("click", function() {
         workspace.setTheme(highContrastTheme);
+    });
+    document.getElementById("darkTheme").addEventListener("click", function() {
+        workspace.setTheme(darkTheme);
     });
 
   const defaultOptions = {
