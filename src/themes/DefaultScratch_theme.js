@@ -74,7 +74,18 @@ export default Blockly.Theme.defineTheme('DefaultScratchTheme', {
             'colour': 'myColor'
         },
     },
-    'componentStyles': {},
-    'fontStyle': {},
+    'componentStyles': {
+        'workspaceBackgroundColour': '#F9F9F9',
+        'toolboxBackgroundColour': '#FFFFFF',
+        'toolboxForegroundColour': '#575E75',
+        'flyoutBackgroundColour': '#F9F9F9',
+        'flyoutForegroundColour': '#575E75',
+        'insertionMarkerColour': '#000000',
+        'insertionMarkerOpacity': '.2',
+
+    },
+    'fontStyle': {
+        "family": "Helvetica Neue",
+    },
     'startHats': null,
 });
