@@ -4,7 +4,6 @@ import * as Blockly from 'blockly';
 //import Theme from './src/default_theme';
 
 // TODO Fix up all the other blocks files. They need:
-//     * to have the colour extensions removed.
 //     * to have their style set correclty.
 //     * to figure out how to reach into the media directory correclty to put images on blocks.
 //     * lists and procedures will need more stuff, but I'm not sure what yet.
@@ -32,6 +31,7 @@ import {ContinuousToolbox, ContinuousFlyout, ContinuousMetrics} from '@blockly/c
 
 
 import defaultScratchTheme from './themes/DefaultScratch_theme.js';
+import highContrastTheme from './themes/highContrast_theme.js';
 import wackadoodleTheme from './themes/wackadoodle_theme.js';
 
 import toolboxXmlObject from './toolbox.js';
