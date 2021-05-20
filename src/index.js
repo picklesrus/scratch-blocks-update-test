@@ -34,6 +34,7 @@ import defaultScratchTheme from './themes/DefaultScratch_theme.js';
 import wackadoodleTheme from './themes/wackadoodle_theme.js';
 import highContrastTheme from './themes/highContrast_theme.js';
 import darkTheme from './themes/dark_theme.js';
+import openDyslexicTheme from './themes/openDyslexic_theme.js';
 
 import toolboxXmlObject from './toolbox.js';
 const toolboxXml = toolboxXmlObject.toolbox;
@@ -58,6 +59,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     document.getElementById("darkTheme").addEventListener("click", function() {
         workspace.setTheme(darkTheme);
+    });
+    document.getElementById("openDyslexic").addEventListener("click", function() {
+        workspace.setTheme(openDyslexicTheme);
     });
 
   const defaultOptions = {
