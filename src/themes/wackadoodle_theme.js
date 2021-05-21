@@ -9,56 +9,56 @@ export default Blockly.Theme.defineTheme('WackadoodleTheme', {
         "colourTertiary": "#91f493"
       },
       "looks": {
-        "colourPrimary": "#9966FF",
-        "colourSecondary": "#855CD6",
-        "colourTertiary": "#774DCB"
+        "colourPrimary": "#7ab6cd",
+        "colourSecondary": "#1a34fa",
+        "colourTertiary": "#7015c3"
       },
       "sounds": {
-        "colourPrimary": "#CF63CF",
-        "colourSecondary": "#C94FC9",
-        "colourTertiary": "#BD42BD"
+        "colourPrimary": "#ff9097",
+        "colourSecondary": "#6a1c66",
+        "colourTertiary": "#15141a"
       },
       "control": {
-        "colourPrimary": "#FFAB19",
-        "colourSecondary": "#EC9C13",
-        "colourTertiary": "#CF8B17"
+        "colourPrimary": "#2723e8",
+        "colourSecondary": "#e5237e",
+        "colourTertiary": "#997602"
       },
       "event": {
-        "colourPrimary": "#FFBF00",
-        "colourSecondary": "#E6AC00",
-        "colourTertiary": "#CC9900"
+        "colourPrimary": "#6eba60",
+        "colourSecondary": "#477872",
+        "colourTertiary": "#5c6866"
       },
       "sensing": {
-        "colourPrimary": "#5CB1D6",
-        "colourSecondary": "#47A8D1",
-        "colourTertiary": "#2E8EB8"
+        "colourPrimary": "#1b98f8",
+        "colourSecondary": "#34d097",
+        "colourTertiary": "#d4e6e8"
       },
       "pen": {
-        "colourPrimary": "#0fBD8C",
-        "colourSecondary": "#0DA57A",
-        "colourTertiary": "#0B8E69"
+        "colourPrimary": "#2343f3",
+        "colourSecondary": "#ee7d97",
+        "colourTertiary": "#223986"
       },
       "operators": {
-        "colourPrimary": "#59C059",
-        "colourSecondary": "#46B946",
-        "colourTertiary": "#389438"
+        "colourPrimary": "#26e406",
+        "colourSecondary": "#6414cd",
+        "colourTertiary": "#226baf"
       },
       "data": {
-        "colourPrimary": "#FF8C1A",
-        "colourSecondary": "#FF8000",
-        "colourTertiary": "#DB6E00"
+        "colourPrimary": "#d272ee",
+        "colourSecondary": "#2b1e49",
+        "colourTertiary": "#c21cdf"
       },
       // This is not a new category, but rather for differentiation
       // between lists and scalar variables.
       "data_lists": {
-        "colourPrimary": "#FF661A",
-        "colourSecondary": "#FF5500",
-        "colourTertiary": "#E64D00"
+        "colourPrimary": "#8ef080",
+        "colourSecondary": "#6cb7f3",
+        "colourTertiary": "#a4740d"
       },
       "more": {
-        "colourPrimary": "#FF6680",
-        "colourSecondary": "#FF4D6A",
-        "colourTertiary": "#FF3355"
+        "colourPrimary": "#63f14c",
+        "colourSecondary": "#a64197",
+        "colourTertiary": "#cd96c8"
       },
   },
   'categoryStyles': {
