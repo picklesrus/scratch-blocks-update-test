@@ -1,7 +1,6 @@
 import * as Blockly from 'blockly';
-// I haven't figured out how to import this file properly so the themes are here.
-// TODO: move them back into separate files.
-//import Theme from './src/default_theme';
+
+import {NavigationController} from '@blockly/keyboard-navigation';
 
 // TODO Fix up all the other blocks files. They need:
 //     * to have their style set correclty.
@@ -39,6 +38,8 @@ import openDyslexicTheme from './themes/openDyslexic_theme.js';
 import toolboxXmlObject from './toolbox.js';
 const toolboxXml = toolboxXmlObject.toolbox;
 
+const navControl = new NavigationController();
+
 /**
  * Create a workspace.
  * @param {HTMLElement} blocklyDiv The blockly container div.
@@ -62,6 +63,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     document.getElementById("openDyslexic").addEventListener("click", function() {
         workspace.setTheme(openDyslexicTheme);
+    });
+    document.getElementById("enableKeyboard").addEventListener("click", function() {
+        navControl.enable(workspace);
+    });
+    document.getElementById("disableKeyboard").addEventListener("click", function() {
+        navControl.disable(workspace);
     });
 
   const defaultOptions = {
@@ -94,4 +101,8 @@ document.addEventListener('DOMContentLoaded', function() {
   workspace = Blockly.inject('root',
       defaultOptions);
   //createPlayground(document.getElementById('root'), createWorkspace,  defaultOptions);
+
+  navControl.init();
+  navControl.addWorkspace(workspace);
+  //navControl.enable(workspace);
 });

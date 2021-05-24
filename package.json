@@ -31,8 +31,9 @@
   ],
   "dependencies": {
     "@blockly/continuous-toolbox": "^1.0.4",
-    "blockly": ">=5.20210325.0",
-    "@blockly/dev-tools": "latest"
+    "@blockly/dev-tools": "latest",
+    "@blockly/keyboard-navigation": "^0.1.7",
+    "blockly": ">=5.20210325.0"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.1.1",
