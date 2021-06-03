@@ -5,13 +5,13 @@ export default Blockly.Theme.defineTheme('BryceLightTheme', {
     'blockStyles': {
         "motion": {
           "colourPrimary": "#01126f",
-          "colourSecondary": "#01126f",
-          "colourTertiary": "#01126f"
+          "colourSecondary": "#010c4d",
+          "colourTertiary": "#000626"
         },
         "looks": {
           "colourPrimary": "#562fa4",
-          "colourSecondary": "#562fa4",
-          "colourTertiary": "#562fa4"
+          "colourSecondary": "#432580",
+          "colourTertiary": "#2f1a59"
           // gradient second color (bottom) #331f5c
         },
         "sounds": {
@@ -21,8 +21,8 @@ export default Blockly.Theme.defineTheme('BryceLightTheme', {
         },
         "control": {
           "colourPrimary": "#926d00",
-          "colourSecondary": "#926d00",
-          "colourTertiary": "#926d00"
+          "colourSecondary": "#664d00",
+          "colourTertiary": "#403000"
         },
         "event": {
           "colourPrimary": "#FFBF00",
