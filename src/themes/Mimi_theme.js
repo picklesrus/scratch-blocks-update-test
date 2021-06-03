@@ -5,18 +5,18 @@ export default Blockly.Theme.defineTheme('MimiTheme', {
     'blockStyles': {
         "motion": {
           "colourPrimary": "#3373cc",
-          "colourSecondary": "#3373cc",
-          "colourTertiary": "#3373cc"
+          "colourSecondary": "#295da6",
+          "colourTertiary": "#204880"
         },
         "looks": {
           "colourPrimary": "#774dcb",
-          "colourSecondary": "#774dcb",
-          "colourTertiary": "#774dcb"
+          "colourSecondary": "#613fa6",
+          "colourTertiary": "#4b3080"
         },
         "sounds": {
           "colourPrimary": "#a53da8",
-          "colourSecondary": "#a53da8",
-          "colourTertiary": "#a53da8"
+          "colourSecondary": "#7d2e80",
+          "colourTertiary": "#572059"
         },
         "control": {
           "colourPrimary": "#FFAB19",
@@ -32,18 +32,18 @@ export default Blockly.Theme.defineTheme('MimiTheme', {
         },
         "sensing": {
           "colourPrimary": "#197fa4",
-          "colourSecondary": "#197fa4",
-          "colourTertiary": "#197fa4"
+          "colourSecondary": "#136380",
+          "colourTertiary": "#0d4559"
         },
         "pen": {
           "colourPrimary": "#06845d",
-          "colourSecondary": "#06845d",
-          "colourTertiary": "#06845d"
+          "colourSecondary": "#04593e",
+          "colourTertiary": "#023323"
         },
         "operators": {
           "colourPrimary": "#298529",
-          "colourSecondary": "#298529",
-          "colourTertiary": "#298529"
+          "colourSecondary": "#1c591c",
+          "colourTertiary": "#103310"
         },
         "data": {
           "colourPrimary": "#FF8C1A",
@@ -55,13 +55,13 @@ export default Blockly.Theme.defineTheme('MimiTheme', {
         // between lists and scalar variables.
         "data_lists": {
           "colourPrimary": "#ff661a",
-          "colourSecondary": "#ff661a",
-          "colourTertiary": "#ff661a"
+          "colourSecondary": "#d95716",
+          "colourTertiary": "#993d0f"
         },
         "more": {
           "colourPrimary": "#db244b",
-          "colourSecondary": "#db244b",
-          "colourTertiary": "#db244b"
+          "colourSecondary": "#b31d3d",
+          "colourTertiary": "#8c1630"
       },
       "text": {
         "colourPrimary": "#FFFFFF",
