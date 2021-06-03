@@ -35,6 +35,16 @@ import wackadoodleTheme from './themes/wackadoodle_theme.js';
 import highContrastTheme from './themes/highContrast_theme.js';
 import darkTheme from './themes/dark_theme.js';
 import openDyslexicTheme from './themes/openDyslexic_theme.js';
+import chrisGTheme from './themes/ChrisG_theme.js';
+import zoeTheme from './themes/Zoe_theme.js';
+import karishmaTheme from './themes/Karishma_theme.js';
+import bryceLightTheme from './themes/BryceLight_theme.js';
+import bryceDarkTheme from './themes/BryceDark_theme.js';
+import sarahTheme from './themes/Sarah_theme.js';
+import mimiTheme from './themes/Mimi_theme.js';
+import mimiPastelTheme from './themes/MimiPastel_theme.js';
+import ericRTheme from './themes/EricR_theme.js';
+
 
 import toolboxXmlObject from './toolbox.js';
 const toolboxXml = toolboxXmlObject.toolbox;
@@ -62,6 +72,33 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     document.getElementById("openDyslexic").addEventListener("click", function() {
         workspace.setTheme(openDyslexicTheme);
+    });
+    document.getElementById("chrisGTheme").addEventListener("click", function() {
+        workspace.setTheme(chrisGTheme);
+    });
+    document.getElementById("zoeTheme").addEventListener("click", function() {
+        workspace.setTheme(zoeTheme);
+    });
+    document.getElementById("karishmaTheme").addEventListener("click", function() {
+        workspace.setTheme(karishmaTheme);
+    });
+    document.getElementById("bryceLightTheme").addEventListener("click", function() {
+        workspace.setTheme(bryceLightTheme);
+    });
+    document.getElementById("bryceDarkTheme").addEventListener("click", function() {
+        workspace.setTheme(bryceDarkTheme);
+    });
+    document.getElementById("sarahTheme").addEventListener("click", function() {
+        workspace.setTheme(sarahTheme);
+    });
+    document.getElementById("mimiTheme").addEventListener("click", function() {
+        workspace.setTheme(mimiTheme);
+    });
+    document.getElementById("mimiPastelTheme").addEventListener("click", function() {
+        workspace.setTheme(mimiPastelTheme);
+    });
+    document.getElementById("ericRTheme").addEventListener("click", function() {
+        workspace.setTheme(ericRTheme);
     });
 
   const defaultOptions = {
