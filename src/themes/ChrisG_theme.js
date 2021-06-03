@@ -5,38 +5,38 @@ export default Blockly.Theme.defineTheme('ChrisGTheme', {
     'blockStyles': {
         "motion": {
           "colourPrimary": "#3074d5",
-          "colourSecondary": "#3074d5",
-          "colourTertiary": "#3074d5"
+          "colourSecondary": "#2962b3",
+          "colourTertiary": "#204d8c"
         },
         "looks": {
           "colourPrimary": "#6c41c3",
-          "colourSecondary": "#6c41c3",
-          "colourTertiary": "#6c41c3"
+          "colourSecondary": "#553299",
+          "colourTertiary": "#3f2673"
         },
         "sounds": {
           "colourPrimary": "#c51bc5",
-          "colourSecondary": "#c51bc5",
-          "colourTertiary": "#c51bc5"
+          "colourSecondary": "#991599",
+          "colourTertiary": "#731073"
         },
         "control": {
           "colourPrimary": "#c65001",
-          "colourSecondary": "#c65001",
-          "colourTertiary": "#c65001"
+          "colourSecondary": "#993e02",
+          "colourTertiary": "#732f01"
         },
         "event": {
           "colourPrimary": "#4b830c",
-          "colourSecondary": "#4b830c",
-          "colourTertiary": "#4b830c"
+          "colourSecondary": "#325708",
+          "colourTertiary": "#1d3305"
         },
         "sensing": {
           "colourPrimary": "#347a98",
-          "colourSecondary": "#347a98",
-          "colourTertiary": "#347a98"
+          "colourSecondary": "#275c73",
+          "colourTertiary": "#1a3d4d"
         },
         "pen": {
           "colourPrimary": "#1b8366",
-          "colourSecondary": "#1b8366",
-          "colourTertiary": "#1b8366"
+          "colourSecondary": "#135945",
+          "colourTertiary": "#0b3328"
         },
         "operators": {
           "colourPrimary": "#59C059",
@@ -45,8 +45,8 @@ export default Blockly.Theme.defineTheme('ChrisGTheme', {
         },
         "data": {
           "colourPrimary": "#aa5e13",
-          "colourSecondary": "#aa5e13",
-          "colourTertiary": "#aa5e13"
+          "colourSecondary": "#80470e",
+          "colourTertiary": "#59320a"
         },
         // This is not a new category, but rather for differentiation
         // between lists and scalar variables.
@@ -57,8 +57,8 @@ export default Blockly.Theme.defineTheme('ChrisGTheme', {
         },
         "more": {
           "colourPrimary": "#db244b",
-          "colourSecondary": "#db244b",
-          "colourTertiary": "#db244b"
+          "colourSecondary": "#b31d3d",
+          "colourTertiary": "#8c1630"
       },
       "text": {
         "colourPrimary": "#FFFFFF",
