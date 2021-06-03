@@ -5,18 +5,18 @@ export default Blockly.Theme.defineTheme('KarishmaTheme', {
     'blockStyles': {
         "motion": {
           "colourPrimary": "#0000ff",
-          "colourSecondary": "#0000ff",
-          "colourTertiary": "#0000ff"
+          "colourSecondary": "#0000d9",
+          "colourTertiary": "#0000b3"
         },
         "looks": {
           "colourPrimary": "#9900ff",
-          "colourSecondary": "#9900ff",
-          "colourTertiary": "#9900ff"
+          "colourSecondary": "#8200d9",
+          "colourTertiary": "#6b00b3"
         },
         "sounds": {
           "colourPrimary": "#ee00ff",
-          "colourSecondary": "#ee00ff",
-          "colourTertiary": "#ee00ff"
+          "colourSecondary": "#ca00d9",
+          "colourTertiary": "#a700b3"
         },
         "control": {
           "colourPrimary": "#FFAB19",
