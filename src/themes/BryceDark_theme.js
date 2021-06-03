@@ -6,12 +6,12 @@ export default Blockly.Theme.defineTheme('BryceDarkTheme', {
     'blockStyles': {
         "motion": {
           "colourPrimary": "#01126f",
-          "colourSecondary": "#01126f",
+          "colourSecondary": "#010c4d",
           "colourTertiary": "#e1deff" // boarder color
         },
         "looks": {
           "colourPrimary": "#562fa4",
-          "colourSecondary": "#562fa4",
+          "colourSecondary": "#3b2170",
           "colourTertiary": "#aa7df0" //boarder color
           // gradient second color (bottom) #331f5c
         },
@@ -22,7 +22,7 @@ export default Blockly.Theme.defineTheme('BryceDarkTheme', {
         },
         "control": {
           "colourPrimary": "#926d00",
-          "colourSecondary": "#926d00",
+          "colourSecondary": "#664d00",
           "colourTertiary": "#ffbb00" // boarder color
           // text color #ffe8a4
         },
